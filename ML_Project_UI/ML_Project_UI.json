@@ -1,0 +1,333 @@
+{
+    "MAIN-1": {
+        "TYPE": "MAIN",
+        "parameters": {
+            "title": "Window",
+            "width": 1000,
+            "height": 700
+        },
+        "pack_options": {},
+        "ID": "fd562c4c-11b1-4319-9b49-bbb5a635b843",
+        "SCROLLABLEFRAME0": {
+            "TYPE": "SCROLLABLEFRAME",
+            "parameters": {
+                "orientation": "vertical"
+            },
+            "pack_options": {
+                "expand": true,
+                "fill": "both"
+            },
+            "ID": "26815eeb-728f-4efd-be82-82d07bbbdccd",
+            "LABEL1": {
+                "TYPE": "LABEL",
+                "parameters": {
+                    "text": "ML Builder",
+                    "font_size": 30
+                },
+                "pack_options": {
+                    "pady": [
+                        10,
+                        0
+                    ]
+                },
+                "ID": "31dec2f6-fd1e-4137-9f3e-2a3c8b2daa83"
+            },
+            "frame_placeholder": {
+                "TYPE": "FRAME",
+                "parameters": {
+                    "fg_color": [
+                        "gray86",
+                        "#512b2b"
+                    ],
+                    "height": 366
+                },
+                "pack_options": {
+                    "pady": [
+                        20,
+                        20
+                    ],
+                    "fill": "x",
+                    "padx": 20
+                },
+                "ID": "212b0306-17a9-4067-bb4e-03b8477950ef",
+                "PACK_PROPAGATE": "False"
+            },
+            "train_value_frame": {
+                "TYPE": "FRAME",
+                "parameters": {
+                    "height": 300,
+                    "fg_color": [
+                        "gray86",
+                        "#2e2e2e"
+                    ]
+                },
+                "pack_options": {
+                    "pady": [
+                        20,
+                        20
+                    ],
+                    "fill": "x",
+                    "padx": 20
+                },
+                "ID": "39055b12-6b6e-4bdb-9c6b-cc408fd8b262",
+                "PACK_PROPAGATE": "False",
+                "LABEL4": {
+                    "TYPE": "LABEL",
+                    "parameters": {
+                        "text": "Train Values",
+                        "font_size": 20,
+                        "anchor": "w"
+                    },
+                    "pack_options": {
+                        "pady": [
+                            10,
+                            10
+                        ],
+                        "fill": "x",
+                        "padx": 10
+                    },
+                    "ID": "4be9792b-db02-4133-a3e3-8601171a434c"
+                },
+                "FRAME5": {
+                    "TYPE": "FRAME",
+                    "parameters": {},
+                    "pack_options": {
+                        "pady": [
+                            10,
+                            10
+                        ],
+                        "expand": 1,
+                        "fill": "both",
+                        "padx": 10
+                    },
+                    "ID": "f4d0af7e-d8fc-474d-ace4-51e99329c779",
+                    "PACK_PROPAGATE": "True",
+                    "CHECKBOX6": {
+                        "TYPE": "CHECKBOX",
+                        "parameters": {
+                            "text": "Column1"
+                        },
+                        "pack_options": {},
+                        "ID": "0fbf6b09-c796-47ea-b6ef-e4b7331feb6e"
+                    }
+                }
+            },
+            "test_value_frame": {
+                "TYPE": "FRAME",
+                "parameters": {
+                    "height": 300,
+                    "fg_color": [
+                        "gray86",
+                        "#2e2e2e"
+                    ]
+                },
+                "pack_options": {
+                    "pady": [
+                        20,
+                        20
+                    ],
+                    "fill": "x",
+                    "padx": 20
+                },
+                "ID": "91de6c5b-5889-43f9-8036-1ccbad48e908",
+                "PACK_PROPAGATE": "False",
+                "LABEL9_copy": {
+                    "TYPE": "LABEL",
+                    "parameters": {
+                        "text": "Test Values",
+                        "font_size": 20,
+                        "anchor": "w"
+                    },
+                    "pack_options": {
+                        "pady": [
+                            10,
+                            10
+                        ],
+                        "fill": "x",
+                        "padx": 10
+                    },
+                    "ID": "e887556f-120d-4b1d-a748-56dd0f365096"
+                },
+                "FRAME10_copy": {
+                    "TYPE": "FRAME",
+                    "parameters": {},
+                    "pack_options": {
+                        "pady": [
+                            10,
+                            10
+                        ],
+                        "expand": 1,
+                        "fill": "both",
+                        "padx": 10
+                    },
+                    "ID": "d761e796-ae14-47a9-9107-cf240045499f",
+                    "PACK_PROPAGATE": "True",
+                    "CHECKBOX11_copy": {
+                        "TYPE": "CHECKBOX",
+                        "parameters": {
+                            "text": "Column1"
+                        },
+                        "pack_options": {},
+                        "ID": "1850033f-1c67-48da-85b3-9963b4f37013"
+                    }
+                }
+            },
+            "FRAME16_copy": {
+                "TYPE": "FRAME",
+                "parameters": {
+                    "fg_color": [
+                        "gray86",
+                        "#2d2e2d"
+                    ]
+                },
+                "pack_options": {
+                    "pady": [
+                        20,
+                        20
+                    ],
+                    "fill": "x",
+                    "padx": 20
+                },
+                "ID": "84af22f8-9aa5-4378-97d8-7279a3f0c5e6",
+                "PACK_PROPAGATE": "True",
+                "LABEL17_copy": {
+                    "TYPE": "LABEL",
+                    "parameters": {
+                        "text": "Test Size - 0.5",
+                        "anchor": "w",
+                        "font_size": 20
+                    },
+                    "pack_options": {
+                        "pady": [
+                            10,
+                            10
+                        ],
+                        "fill": "x",
+                        "padx": 10
+                    },
+                    "ID": "2867f8b2-192e-4568-a968-e540f6134e44"
+                },
+                "SLIDER18_copy": {
+                    "TYPE": "SLIDER",
+                    "parameters": {
+                        "from_": 0,
+                        "to": 100,
+                        "number_of_steps": 100,
+                        "orientation": "horizontal"
+                    },
+                    "pack_options": {
+                        "pady": [
+                            10,
+                            10
+                        ],
+                        "fill": "x",
+                        "padx": [
+                            10,
+                            0
+                        ]
+                    },
+                    "ID": "529f9774-b12a-4f87-a67a-b914486c0fb9"
+                }
+            },
+            "FRAME19_copy": {
+                "TYPE": "FRAME",
+                "parameters": {
+                    "fg_color": [
+                        "gray86",
+                        "#2d2e2d"
+                    ]
+                },
+                "pack_options": {
+                    "pady": [
+                        20,
+                        20
+                    ],
+                    "fill": "x",
+                    "padx": 20
+                },
+                "ID": "13f08cf3-d093-4072-b6c1-716b3647b17a",
+                "PACK_PROPAGATE": "True",
+                "PreProcessorFrame": {
+                    "TYPE": "FRAME",
+                    "parameters": {},
+                    "pack_options": {
+                        "pady": [
+                            10,
+                            0
+                        ],
+                        "padx": 10
+                    },
+                    "ID": "fd775d2a-6b55-4fb9-adfa-b8b0dfd54bfa",
+                    "PACK_PROPAGATE": "True",
+                    "LABEL22": {
+                        "TYPE": "LABEL",
+                        "parameters": {
+                            "text": "Column 1",
+                            "anchor": "w",
+                            "font_size": 15
+                        },
+                        "pack_options": {
+                            "pady": [
+                                10,
+                                5
+                            ],
+                            "fill": "x",
+                            "padx": 10
+                        },
+                        "ID": "c31450e8-69f0-414a-a491-9ab1b65b4117"
+                    },
+                    "RADIOBUTTON23": {
+                        "TYPE": "RADIOBUTTON",
+                        "parameters": {
+                            "text": "LabelEncoder"
+                        },
+                        "pack_options": {
+                            "padx": [
+                                10,
+                                10
+                            ],
+                            "fill": "x"
+                        },
+                        "ID": "947f376f-185f-4d9c-b6b1-6447114fcc58"
+                    },
+                    "RADIOBUTTON25_copy": {
+                        "TYPE": "RADIOBUTTON",
+                        "parameters": {
+                            "text": "StandardScaler"
+                        },
+                        "pack_options": {
+                            "pady": [
+                                10,
+                                10
+                            ],
+                            "fill": "x",
+                            "padx": 10
+                        },
+                        "ID": "3debf3ad-5afb-41ca-8267-fec432812a25"
+                    }
+                }
+            },
+            "BUTTON25": {
+                "TYPE": "BUTTON",
+                "parameters": {
+                    "text": "Train",
+                    "height": 30,
+                    "corner_radius": 2,
+                    "font_size": 15
+                },
+                "pack_options": {
+                    "pady": [
+                        20,
+                        20
+                    ],
+                    "fill": "x",
+                    "padx": 20
+                },
+                "ID": "dc9b3abd-7ea2-4d6e-b8ba-3fe31abc260e"
+            }
+        },
+        "theme": "blue",
+        "palette_on_change": {},
+        "palette": {}
+    }
+}
